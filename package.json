@@ -4,7 +4,8 @@
   "description": "Learning backend with node.js, express.js, mongoose",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "Backend",
@@ -12,5 +13,9 @@
     "Copied"
   ],
   "author": "Ani",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
 }
