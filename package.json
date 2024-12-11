@@ -1,0 +1,16 @@
+{
+  "name": "backend-with-hitesh",
+  "version": "1.0.0",
+  "description": "Learning backend with node.js, express.js, mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Backend",
+    "FirstProject",
+    "Copied"
+  ],
+  "author": "Ani",
+  "license": "ISC"
+}
