@@ -4,11 +4,11 @@ class ApiHandelers extends Error {
 
     this.statusCode = statusCode < 400;
     this.errors = errors;
-    this.statck = statck;
+    this.stack = stack;
     success = false;
 
-    if(statck){
-        this.statck = statck;
+    if(stack){
+        this.stack = stack;
     }else{
         Error.captureStackTrace(this, this.constructor);
     }
